@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1454898107187813369, guid: c52b77dadef8bd74a9f15f193368fcb6, type: 3}
       propertyPath: m_Name
-      value: Car
+      value: Car Footbal
       objectReference: {fileID: 0}
     - target: {fileID: 1797428622857155716, guid: c52b77dadef8bd74a9f15f193368fcb6, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -33,23 +33,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1797428623055827831, guid: c52b77dadef8bd74a9f15f193368fcb6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.2
+      value: 7.7
       objectReference: {fileID: 0}
     - target: {fileID: 1797428623055827831, guid: c52b77dadef8bd74a9f15f193368fcb6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -16
+      value: -20.6
       objectReference: {fileID: 0}
     - target: {fileID: 1797428623055827831, guid: c52b77dadef8bd74a9f15f193368fcb6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9942636
+      value: 0.9932721
       objectReference: {fileID: 0}
     - target: {fileID: 1797428623055827831, guid: c52b77dadef8bd74a9f15f193368fcb6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.10695822
+      value: 0.11580401
       objectReference: {fileID: 0}
     - target: {fileID: 1797428623055827831, guid: c52b77dadef8bd74a9f15f193368fcb6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 12.28
+      value: 13.3
       objectReference: {fileID: 0}
     - target: {fileID: 1797428623291872426, guid: c52b77dadef8bd74a9f15f193368fcb6, type: 3}
       propertyPath: m_RenderMode

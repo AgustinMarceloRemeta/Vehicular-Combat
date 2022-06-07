@@ -9,6 +9,7 @@ TagManager:
   - Velocity
   - Time
   - Shoot
+  - Ball
   layers:
   - Default
   - TransparentFX

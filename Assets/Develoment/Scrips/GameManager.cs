@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     CarController Player;
     void Start()
     {
+        Time.timeScale = 1;
         Player = FindObjectOfType<CarController>();
     }
 
