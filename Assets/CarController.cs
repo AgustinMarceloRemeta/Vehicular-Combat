@@ -36,9 +36,12 @@ public class CarController : MonoBehaviour
     private void Update()
     {
         VisualWhels();
-        if (Input.GetKeyDown("space") && IsShooting) Shoot();
-        ImLife.fillAmount = Life / LifeMax;
-        TextPowerUp();
+        if (IsShooting)
+        {
+            if (Input.GetKeyDown("space")) Shoot();
+            ImLife.fillAmount = Life / LifeMax;
+            TextPowerUp();
+        }
     }
 
     private void Wheels()
