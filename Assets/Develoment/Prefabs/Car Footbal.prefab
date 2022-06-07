@@ -59,6 +59,10 @@ PrefabInstance:
       propertyPath: m_MatchWidthOrHeight
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1797428623609456314, guid: c52b77dadef8bd74a9f15f193368fcb6, type: 3}
+      propertyPath: m_Constraints
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1797428623609456315, guid: c52b77dadef8bd74a9f15f193368fcb6, type: 3}
       propertyPath: IsShooting
       value: 0

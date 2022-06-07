@@ -35,6 +35,7 @@ public class CarController : MonoBehaviour
     }
     private void Update()
     {
+        transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0);
         VisualWhels();
         if (IsShooting)
         {
