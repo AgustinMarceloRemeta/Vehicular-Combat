@@ -14,6 +14,7 @@ public class ManagerFootball : MonoBehaviour
     [SerializeField] Transform InitNob, InitSina, InitBall;
     void Start()
     {
+        Cursor.visible = false;
         Time.timeScale = 1;
     }
 
@@ -31,6 +32,7 @@ public class ManagerFootball : MonoBehaviour
             if (Nob > Sina) WinnerText.text = "Ganador Newells";
             else if (Nob < Sina) WinnerText.text = "Ganador Central";
             else if (Nob == Sina) WinnerText.text = "Empate";
+            Cursor.visible = true;
         }
         
     }
@@ -43,7 +45,7 @@ public class ManagerFootball : MonoBehaviour
     }
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().ToString());
+        SceneManager.LoadScene(2);
     }
     public void Menu() { SceneManager.LoadScene(0); }
     public void Goal()

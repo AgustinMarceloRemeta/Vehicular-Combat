@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         Player = FindObjectOfType<CarController>();
+        Cursor.visible = false;
     }
 
 
@@ -32,6 +33,7 @@ public class GameManager : MonoBehaviour
         {
             Win.SetActive(true);
             Time.timeScale = 0;
+            Cursor.visible = true;
         }
     }
     void Loser()
@@ -40,6 +42,7 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = 0;
             Lose.SetActive(true);
+            Cursor.visible = true;
         }
     }
     void Text()
