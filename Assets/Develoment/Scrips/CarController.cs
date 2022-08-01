@@ -55,14 +55,14 @@ public class CarController : MonoBehaviour
                 WheelFl.motorTorque = Force * Input.GetAxis(AxisVertical)*2;
                 WheelFr.motorTorque = Force * Input.GetAxis(AxisVertical)*2;
                 WheelBl.motorTorque = Force * Input.GetAxis(AxisVertical)*2;
-                WheelBl.motorTorque = Force * Input.GetAxis(AxisVertical)*2;
+                WheelBr.motorTorque = Force * Input.GetAxis(AxisVertical)*2;
             }
             else
             {
                 WheelFl.motorTorque = Force * Input.GetAxis(AxisVertical);
                 WheelFr.motorTorque = Force * Input.GetAxis(AxisVertical);
                 WheelBl.motorTorque = Force * Input.GetAxis(AxisVertical);
-                WheelBl.motorTorque = Force * Input.GetAxis(AxisVertical);
+                WheelBr.motorTorque = Force * Input.GetAxis(AxisVertical);
             }
             VelocityVisual.text = Velocity.ToString("000");
         }
